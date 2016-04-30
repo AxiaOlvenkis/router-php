@@ -1,7 +1,7 @@
-# router-php
+# Router-php
 Un petit router en PHP, inspiré de celui de Symfony, pour simplifier vos URL
 
-# explication
+# Explication
 Le fichier de routing lié est un fichier .yml, situé par défaut dans un dossier config, au même niveau que le dossier service contenant le routeur.
 Le fichier se présente comme suit :
 
@@ -25,5 +25,5 @@ En cas d'erreur sur le routing, ou de route non trouvé, que ce soit sur le rout
 # Liste de Modification à Apporter au Routeur
 - Optimisation du code
 - Optimiser la factory pour partage, pour rendre le router utilisable facilement dans tout projet.
-- envoyer une liste de paramètre a l'action du controller plutôt qu'un tableau, plus simple d'utilisation.
-- continuer de tester le router pour corriger les bugs éventuels.
+- Envoyer une liste de paramètre a l'action du controller plutôt qu'un tableau, plus simple d'utilisation.
+- Continuer de tester le router pour corriger les bugs éventuels.
