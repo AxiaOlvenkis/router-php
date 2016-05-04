@@ -23,6 +23,7 @@ Le router fournit au controller un tableau contenant tous les paramètres avec e
 En cas d'erreur sur le routing, ou de route non trouvé, que ce soit sur le router, ou sur la fonction Twig, le router renvoie une exception, à gérer. Une fonction "gestionErreur" est aussi fourni, lié à un controller Erreur.
 
 # Liste de Modification à Apporter au Routeur
+- Tester si le routeur fonctionne aussi bien une fois en ligne.
 - Optimisation du code
 - Optimiser la factory pour partage, pour rendre le router utilisable facilement dans tout projet.
 - Envoyer une liste de paramètre a l'action du controller plutôt qu'un tableau, plus simple d'utilisation.
